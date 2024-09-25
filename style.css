@@ -37,7 +37,10 @@ body {
     padding: 20px; /* Espacio interior */
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Añade una sombra suave */
     overflow-y: auto; /* Permite desplazamiento si el contenido es más largo que la pantalla */
+    position: relative;
+   
 }
+
 
 
 .nombre{
@@ -107,7 +110,11 @@ div h2 {
     min-height: 600px;
     margin-left: 250px;
     margin-top: -400px;
+    
+    
 }
+
+
 
 .izquierda {
     display: inline-block;
@@ -165,4 +172,67 @@ li{
 .linea-horizontal-corta2 {
     margin-right: 20px;
     margin-left: -9px;
+}
+
+/*CONTAINER DERECHO*/
+
+
+.container-derecho{
+    display:flex;
+    margin-right: 30px;
+}
+
+.derecha1{
+    position: absolute; 
+    margin-left: 300px;
+    margin-top: -900px;
+}
+
+#diseño{
+    margin-top: 10px;
+}
+
+#fecha2022{
+    margin-top: 5px;
+    font-weight: 400;
+}
+
+.para2{
+    position: absolute;
+    margin-left: 300px;
+    margin-top: -820px;
+    font-size: 0.83em;
+    padding-right: 110px;
+}
+
+.linea-horizontal-corta3{
+    position: relative;
+   
+    border:3px solid black;
+}
+
+.ultimo {
+    position: absolute;
+    margin-left: 300px;
+    margin-top: -665px;
+    font-size: 0.83em;
+}
+
+#recepcion{
+    font-size: 13px ;
+}
+
+#hotel{
+    padding-top:10px;
+    font-weight: 500;
+    font-size: 13px;
+}
+
+#last-para{
+    padding-right: 110px ;
+    padding-top: 30px;
+}
+
+#subtitle{
+    color: grey;
 }
