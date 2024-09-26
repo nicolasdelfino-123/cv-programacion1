@@ -13,7 +13,6 @@
 img{
     width: 100px;
     height: auto;
-    border: 2px dashed red;
     margin-top: -140px;
     border-radius: 15px;
     margin-left: 25px;
@@ -26,6 +25,7 @@ body {
     justify-content: center; /* Centra horizontalmente */
     align-items: center;     /* Centra verticalmente */
     background-color: #f0f0f0; /* Color de fondo para destacar el "papel" */
+    border: 2px dashed red;
 }
 
 .container-general {
@@ -38,9 +38,14 @@ body {
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Añade una sombra suave */
     overflow-y: auto; /* Permite desplazamiento si el contenido es más largo que la pantalla */
     position: relative;
+    border: 2px dashed blue;
+    display: flex;
+    flex-direction: column;
    
 }
-
+.container-general > :last-child {
+    margin-bottom: auto;
+}
 
 
 .nombre{
@@ -103,7 +108,7 @@ div h2 {
 }
 
 
-.linea-vertical {
+/* .linea-vertical {
     width: 1px;
     background-color: black;
     height: auto;
@@ -111,9 +116,16 @@ div h2 {
     margin-left: 250px;
     margin-top: -400px;
     
-    
-}
+}  */
 
+/* .linea-vertical {
+    width: 1px;
+    background-color: black;
+    height: auto;
+    margin-left: 250px;
+    margin-top: -500px;
+    min-height: 500px;
+} */
 
 
 .izquierda {
@@ -177,9 +189,14 @@ li{
 /*CONTAINER DERECHO*/
 
 
-.container-derecho{
+/* .container-derecho{
     display:flex;
     margin-right: 30px;
+} */
+.container-derecho {
+    display: flex;
+    margin-right: 30px;
+    margin-top: 400px;
 }
 
 .derecha1{
@@ -235,4 +252,8 @@ li{
 
 #subtitle{
     color: grey;
+}
+
+#contendor-derecho{
+
 }
