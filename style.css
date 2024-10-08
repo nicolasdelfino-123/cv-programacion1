@@ -54,7 +54,7 @@ body {
 }
 
 h1 {
-    border: 1px dashed blue;
+  /*   border: 1px dashed blue; */
     display: inline;
     font-family: Poppins, sans-serif;
     font-weight: 600;
