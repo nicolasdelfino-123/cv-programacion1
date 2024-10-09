@@ -22,20 +22,20 @@ img{
 body {
     height: 100vh;
     display: flex;
-    justify-content: center; /* Centra horizontalmente */
-    align-items: center;     /* Centra verticalmente */
-    background-color: #f0f0f0; /* Color de fondo para destacar el "papel" */
+    justify-content: center; 
+    align-items: center;     
+    background-color: #f0f0f0; 
     border: 2px dashed red;
 }
 
 .container-general {
-    width: 90%; /* Puedes ajustar el ancho según prefieras */
-    max-width: 800px; /* Establece un máximo para pantallas grandes */
-    height: 90vh; /* Ajusta la altura relativa a la pantalla */
+    width: 90%; 
+    max-width: 800px; 
+    height: 90vh; 
     background-color: white;
-    border: 1px solid black; /* Borde negro fino */
-    padding: 20px; /* Espacio interior */
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Añade una sombra suave */
+    border: 1px solid black; 
+    padding: 20px; 
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     overflow-y: auto; /* Permite desplazamiento si el contenido es más largo que la pantalla */
     position: relative;
     border: 2px dashed blue;
@@ -83,7 +83,7 @@ div h2 {
 
 .linea-horizontal-larga {
 
-    width: 80%; /* Ajusta el ancho de la línea */
+    width: 80%; 
     margin-top: 30px;
     margin-left: 50px; 
 }
@@ -104,7 +104,7 @@ div h2 {
 }
 
 .subrayado {
-    text-decoration: underline; /* Aplica el subrayado */
+    text-decoration: underline; 
 }
 
 
@@ -254,6 +254,3 @@ li{
     color: grey;
 }
 
-#contendor-derecho{
-
-}
